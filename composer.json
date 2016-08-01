@@ -1,0 +1,26 @@
+{
+    "name": "angyvolin/silex-lazy-types",
+    "description": "Silex lazy types provider - easy way for defining form types as services",
+    "keywords": [
+        "silex",
+        "forms",
+        "lazy",
+        "symfony"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrii Volin",
+            "role": "Developer"
+        }
+    ],
+    "require-dev": {
+        "silex/silex": "~2.0",
+        "symfony/form": "~3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Angyvolin\\Provider\\": "src"
+        }
+    }
+}
